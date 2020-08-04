@@ -13,6 +13,15 @@
 		9C2ED31524D91F1E00193B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2ED31324D91F1E00193B5C /* Main.storyboard */; };
 		9C2ED31724D91F2000193B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2ED31624D91F2000193B5C /* Assets.xcassets */; };
 		9C2ED31A24D91F2000193B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2ED31824D91F2000193B5C /* LaunchScreen.storyboard */; };
+		9C2ED32824D9200100193B5C /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED32724D9200100193B5C /* Pokemon.swift */; };
+		9C2ED32A24D9200B00193B5C /* PokemonDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED32924D9200B00193B5C /* PokemonDummy.swift */; };
+		9C2ED32C24D92A1C00193B5C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED32B24D92A1C00193B5C /* ProfileViewController.swift */; };
+		9C2ED32F24D92B3200193B5C /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED32D24D92B3200193B5C /* PokemonTableViewCell.swift */; };
+		9C2ED33024D92B3200193B5C /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2ED32E24D92B3200193B5C /* PokemonTableViewCell.xib */; };
+		9C2ED33324D92D8900193B5C /* DetailPokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED33124D92D8900193B5C /* DetailPokemonViewController.swift */; };
+		9C2ED33424D92D8900193B5C /* DetailPokemonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2ED33224D92D8900193B5C /* DetailPokemonViewController.xib */; };
+		9C2ED33624D9303900193B5C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED33524D9303900193B5C /* Profile.swift */; };
+		9C2ED33824D9304300193B5C /* ProfileDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2ED33724D9304300193B5C /* ProfileDummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		9C2ED31624D91F2000193B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C2ED31924D91F2000193B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2ED31B24D91F2000193B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2ED32724D9200100193B5C /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		9C2ED32924D9200B00193B5C /* PokemonDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDummy.swift; sourceTree = "<group>"; };
+		9C2ED32B24D92A1C00193B5C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9C2ED32D24D92B3200193B5C /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
+		9C2ED32E24D92B3200193B5C /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonTableViewCell.xib; sourceTree = "<group>"; };
+		9C2ED33124D92D8900193B5C /* DetailPokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPokemonViewController.swift; sourceTree = "<group>"; };
+		9C2ED33224D92D8900193B5C /* DetailPokemonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPokemonViewController.xib; sourceTree = "<group>"; };
+		9C2ED33524D9303900193B5C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9C2ED33724D9304300193B5C /* ProfileDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		9C2ED30C24D91F1E00193B5C /* Dicoding IOS Submission Pemula */ = {
 			isa = PBXGroup;
 			children = (
-				9C2ED30D24D91F1E00193B5C /* AppDelegate.swift */,
-				9C2ED30F24D91F1E00193B5C /* SceneDelegate.swift */,
-				9C2ED31124D91F1E00193B5C /* ViewController.swift */,
+				9C2ED32424D91F3E00193B5C /* Delegate */,
+				9C2ED32224D91F3100193B5C /* Model */,
+				9C2ED32124D91F2B00193B5C /* View */,
 				9C2ED31324D91F1E00193B5C /* Main.storyboard */,
-				9C2ED31624D91F2000193B5C /* Assets.xcassets */,
 				9C2ED31824D91F2000193B5C /* LaunchScreen.storyboard */,
+				9C2ED32324D91F3700193B5C /* Controller */,
+				9C2ED31624D91F2000193B5C /* Assets.xcassets */,
 				9C2ED31B24D91F2000193B5C /* Info.plist */,
 			);
 			path = "Dicoding IOS Submission Pemula";
+			sourceTree = "<group>";
+		};
+		9C2ED32124D91F2B00193B5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C2ED32524D91F5A00193B5C /* XIB */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C2ED32224D91F3100193B5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C2ED32724D9200100193B5C /* Pokemon.swift */,
+				9C2ED32924D9200B00193B5C /* PokemonDummy.swift */,
+				9C2ED33524D9303900193B5C /* Profile.swift */,
+				9C2ED33724D9304300193B5C /* ProfileDummy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C2ED32324D91F3700193B5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C2ED31124D91F1E00193B5C /* ViewController.swift */,
+				9C2ED32D24D92B3200193B5C /* PokemonTableViewCell.swift */,
+				9C2ED32B24D92A1C00193B5C /* ProfileViewController.swift */,
+				9C2ED33124D92D8900193B5C /* DetailPokemonViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C2ED32424D91F3E00193B5C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9C2ED30D24D91F1E00193B5C /* AppDelegate.swift */,
+				9C2ED30F24D91F1E00193B5C /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9C2ED32524D91F5A00193B5C /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				9C2ED32E24D92B3200193B5C /* PokemonTableViewCell.xib */,
+				9C2ED33224D92D8900193B5C /* DetailPokemonViewController.xib */,
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2ED33424D92D8900193B5C /* DetailPokemonViewController.xib in Resources */,
 				9C2ED31A24D91F2000193B5C /* LaunchScreen.storyboard in Resources */,
+				9C2ED33024D92B3200193B5C /* PokemonTableViewCell.xib in Resources */,
 				9C2ED31724D91F2000193B5C /* Assets.xcassets in Resources */,
 				9C2ED31524D91F1E00193B5C /* Main.storyboard in Resources */,
 			);
@@ -138,9 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2ED33824D9304300193B5C /* ProfileDummy.swift in Sources */,
+				9C2ED32C24D92A1C00193B5C /* ProfileViewController.swift in Sources */,
+				9C2ED32F24D92B3200193B5C /* PokemonTableViewCell.swift in Sources */,
 				9C2ED31224D91F1E00193B5C /* ViewController.swift in Sources */,
+				9C2ED32824D9200100193B5C /* Pokemon.swift in Sources */,
 				9C2ED30E24D91F1E00193B5C /* AppDelegate.swift in Sources */,
+				9C2ED33324D92D8900193B5C /* DetailPokemonViewController.swift in Sources */,
 				9C2ED31024D91F1E00193B5C /* SceneDelegate.swift in Sources */,
+				9C2ED33624D9303900193B5C /* Profile.swift in Sources */,
+				9C2ED32A24D9200B00193B5C /* PokemonDummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622X57WS26;
 				INFOPLIST_FILE = "Dicoding IOS Submission Pemula/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 622X57WS26;
 				INFOPLIST_FILE = "Dicoding IOS Submission Pemula/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
