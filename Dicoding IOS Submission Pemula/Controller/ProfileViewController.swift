@@ -7,7 +7,6 @@ class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let profile = profiles[0]
         profilePicture.image = profile.profilePhoto
         profileName.text = profile.profileName

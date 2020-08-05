@@ -9,7 +9,7 @@ class DetailPokemonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let result = pokemon{
+        if let result = pokemon {
             pokePhoto.image = result.photo
             pokeName.text = result.name
             pokeDesc.text = result.desc
